@@ -24,7 +24,6 @@ import {
   tripguide,
   threejs,
 } from "../assets";
-
 export const navLinks = [
   {
     id: "about",
@@ -44,10 +43,6 @@ const services = [
   {
     title: "Web Developer",
     icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
   },
   {
     title: "Backend Developer",
@@ -108,10 +103,6 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
@@ -121,32 +112,6 @@ const experiences = [
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -180,19 +145,19 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I haven't met a web developer with the ability to independently research and find solutions like Haladie.",
+    name: "Le Duc Trung",
+    designation: "Team Leader",
+    company: "Apero Visionlab",
+    image: "https://media.licdn.com/dms/image/D4E03AQGoFNADK88Dzg/profile-displayphoto-shrink_800_800/0/1696839917994?e=1704931200&v=beta&t=1wjLuQRL88-dp1JvbsCgcINm06nk1uF8R-1Tbiu__DY",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "His ability to listen, embrace contributions, and the way he brings about change is truly remarkable.!",
+    name: "Trinh Thieu Hoa",
+    designation: "SA/HoD",
+    company: "Apero Visionlab",
+    image: "https://media.licdn.com/dms/image/D5603AQHid4hBosf9Nw/profile-displayphoto-shrink_800_800/0/1679284974430?e=1704931200&v=beta&t=0thY_EWVnbxGZRhkn2_1ypeNueBavnbqNXV-EMyncvE",
   },
 ];
 
